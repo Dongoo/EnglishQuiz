@@ -20,7 +20,6 @@ html{
   left: 25%;
   background-color: #001e75;
   border-radius: 20px;
-
 }
 #difficulty{
   position: relative;
@@ -152,6 +151,27 @@ html{
   position: relative;
   left: 2vh;
   top: 2vh;
+  font-family: 'Acme';
+  font-size: 17px;
+}
+#display_diff{
+  position: relative;
+  left: 2vh;
+  top: 2vh;
+  font-family: 'Acme';
+  font-size: 17px;
+}
+#display_time{
+  position: relative;
+  left: 2vh;
+  top: 13vh;
+  font-family: 'Acme';
+  font-size: 17px;
+}
+#display_numQ{
+  position: relative;
+  left: 2vh;
+  top: 23vh;
   font-family: 'Acme';
   font-size: 17px;
 }

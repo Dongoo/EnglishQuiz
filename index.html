@@ -17,7 +17,7 @@
       <div id="menu-background">
 
         <div id="difficulty">
-          <select id="sel" class="action-button animate selezione" onChange="selezione()" required>
+          <select id="sel" class="action-button animate selezione" onChange="selezione_diff()" required>
             <option selected="true" disabled="disabled">Select Difficulty</option>
             <option value="easy">Easy</option>
             <option value="medium">Medium</option>
@@ -27,11 +27,11 @@
         <div id="tempo">
           Time :
         </div>
-        <input id="time" type="time" max="20:00" min="00:00" required>
+        <input id="time" type="time" max="20:00" min="00:00" required onclick="selezione_tempo()" onchange="selezione_tempo()">
         <div id="nQuestion">
           N° Question :
         </div>
-        <input id="quest" type="number" value="5" min="5" max="15" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" type = "number" maxlength = "2" required>
+        <input id="quest" type="number" value="5" min="5" max="15" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" type = "number" maxlength = "2" required onclick= "selezione_numQ()" onchange="selezione_numQ()" >
 
         <div id="settings">
           <div id="display_diff"></div>
