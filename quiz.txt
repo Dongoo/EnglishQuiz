@@ -1,97 +1,48 @@
 Application:set of codes designed to allow specific tasks to happen.
-
 Application Server:specialized server that is based on client/server architecture.
-
 API:the platform used by a program to access different services on the computer system.
-
 Array:similar data saved on a computer system in a sequential form.
-
-
 Back end: all the functions that makes the final product work for the users, it applies working on databases and API.
-
 BIOS: It gives the computer a platform to run the software using a floppy disk or a hard disk.
-
 Bit: It refers to a digit number, either a 0 or a 1 and it is used to represent computerized data.
-
 Boolean: the value of which is either true or false.
-
 Buffer: location, especially in RAM, for storage of temporary data to speed up an operation such as disk access or printing.
-
 BUS: set of wires that enables flow of data from one location of the computer to another.
-
 Byte: made by eight bits.
-
 CGI: It defines how an auxiliary program and a Web server would communicate.
-
 Client: a program that asks for information from other processes or programs.
-
 CMOS: It is the battery powered chip that is situated on the Motherboard that retains system information such as date and time.
-
 Data: Data refers to the information that is saved on a computer.
-
 MSDOS:  It is a command line operating system launched by Bill Gates.
-
 DTP: a term that describes a program that enables users to create, design, and print items such as business cards, birthday cards, letterheads, calendars, invitations, and so on.
-
 Entity-relationship diagram: represents entities and how they are related to each other.
-
-Environment: it is made of specific software, hardware, and network protocols that allow communication with the system.
-
 Event Listener: It is an interface of JAVA responsible for handling events.
-
 FAT: It resembles a table of contents so that files can be located on a computer.
-
 Fault: Hardware or software failure.
-
 Front End: an interface through which a program can be accessed by common users.
-
 Hardware: a set of physical objects.
-
 Icon: a small visual display of an application.
-
-IDE: a programming system that combines several tools of programming to provide an integrated platform for programming. 
-
+IDE: a programming system that combines several tools of programming to provide an integrated platform for programming.
 Instance: an object described by its class.
-
 Internet: a network that accommodates several computers to facilitate exchange and transfer of data.
-
 Kernel: a program called when a computer system is started. It is responsible for setting up system calls in order to manage hardware and system services, and allocate resources to applications.
-
 Memory: Memory is the internal storage location where data and information is stored on a computer.
-
 Modem: The term implies changing of data from digital to analog and then back to digital.
-
 Network: A group of computers connected to each other in order to send and receive data.
-
 Operating System: it provides the software platform required for various applications to run on. Its responsibility is to manage memory storage and security of Data.
-
 Packet: Sections in which message or data are divided to transfer it over a network.
-
 Pixel: it is formed by combining the two words viz.  It represents one point within an image.
-
 Port: it is a connecting component mainly a hardware that enables two computers to allow data sharing physically.
-
 Process: It’s a series of commands that changes data values.
-
 Protocol: it refers to a set of rules that are followed by two devices while interacting with each other.
-
 Query: it is a request made by a computer from a database residing in the same system or a remotely located system.
-
 RAM: It is a configuration of storage cells that hold data so that it can be processed by the central processing unit.
-
 ROM: It is semiconductor-based storage system that saves information permanently. It is an acronym of Zingari.
-Software: is a program (coding) that the computer reads. The system then carries out functions as directed by the code. 
-
+Software: is a program (coding) that the computer reads. The system then carries out functions as directed by the code.
 TCP/IP: It’s a set of communication protocols used to connect host computers on the Internet.
-
 URL: It’s a way of accessing the Internet.
-
 Virtual Memory: is the unused memory on the hard disk used when certain applications require more RAM than is available on the machine.
-
 Virus: is a program that is loaded onto your computer without you knowing about it and it runs to hinder the normal functioning of the computer.
-
 WWW: It’s a term used to define the Internet.
-
 WAN: Such a network spans over an area larger than a LAN.
-
 ZIP: it enables transfer of data using compression of files.
