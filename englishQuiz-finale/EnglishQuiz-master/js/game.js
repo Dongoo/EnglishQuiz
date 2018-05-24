@@ -1,5 +1,6 @@
 let coordinatore = {
   score:0,
+  change: 0,
   true:0
 }
 
@@ -8,7 +9,7 @@ $(document).ready(function (e) {
     let time = localStorage.getItem("time")
     let minuti = parseInt(time.split(":")[0])
     let secondi = parseInt(time.split(":")[1])+1
-
+	coordinatore.score = 0;
     function countdown_timer(){
        if(secondi == 0){
            if(minuti == 0){
@@ -27,7 +28,7 @@ $(document).ready(function (e) {
     }
 
     setTimeout(countdown_timer, 1000);
-    changeQuestion();
+	changeQuestion();
 });
 
 function changeQuestion(){
@@ -35,7 +36,8 @@ function changeQuestion(){
     let position = 0
     let position_q = 0
     let position_a = 0
-
+	
+	
     console.log("DOMANDE: " + localStorage.getItem("numberQ"))
     localStorage.setItem("numberQ", localStorage.getItem("numberQ") - 1);
     if (localStorage.getItem("numberQ") >= 0){
@@ -61,13 +63,25 @@ function changeQuestion(){
     }else{
         console.log("FINE")
     }
+	check_answer();
 }
 
 function check_answer(){
-  if(true_button.checked === true && coordinatore.true){
-    coordinatore.score+=10;
-  }
-  else if(true_button.checked === false && !coordinatore.true){
-    coordinatore.score-=5;
-  }
+	let true_button = document.getElementById("true_button");
+	let false_button = document.getElementById("false_button");
+	$("#point_text").text(coordinatore.score);
+	if(true_button.checked === false && false_button.checked === false){
+		console.log("ciao");
+	}else{
+		if(true_button.checked === true && coordinatore.true){
+		coordinatore.score+=10;
+	  }
+	  else if(true_button.checked === false && !coordinatore.true){
+		coordinatore.score+=10;
+	  }
+	  else{
+		coordinatore.score-=5;
+	  }
+	}
+  console.log(coordinatore.score);
 }
